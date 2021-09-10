@@ -1,0 +1,65 @@
+/* @font-face {
+    font-family: 'ClashGrotesk';
+    src: url('../fonts/ClashGrotesk-Variable.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Variable.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+} */
+
+:root {
+    --font-family-base: 'IBM Plex Sans', sans-serif;
+    --font-family-alt: 'Roboto Slab', serif;
+
+    --color-bg: rgba(0, 0, 0, .1);
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and ( max-width: 400px ) {
+    html {
+        font-size: 13px;
+    }
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: blue;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+    font-style: italic;
+}
+.site-header {
+    padding: 2rem;
+    font-size: 1.5rem;
+    background-color: var(--color-bg);
+}
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+p {
+    white-space: nowrap;
+}
+address {
+    color: #f90;
+}
+button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: #690;
+    background-color: transparent;
+    border: 1px solid currentColor;
+}
+input {
+    text-overflow: ellipsis;
+}
