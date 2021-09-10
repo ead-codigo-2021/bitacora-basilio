@@ -8,24 +8,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Slab:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="assets/css/style.css" media="all">
 </head>
 <body>
     <header class="site-header">
-        <h1>Basilio Cáceres</h1>
-        <nav class="site-navigation">
-            <a href="#">Inicio</a>
-        </nav>
+        <div class="container">
+            <h1>Diseño desde el código</h1>
+            <nav class="site-navigation">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Sobre las clases</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
     </header>
     <main class="site-main">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti reiciendis accusamus itaque non voluptatum ratione vitae adipisci enim expedita error illum possimus fugit ipsa odit labore, sequi eius dignissimos commodi impedit beatae corporis! Quis deserunt quae possimus voluptatem at repellendus, voluptate, magnam commodi iusto alias voluptas velit ipsum quidem ullam voluptatibus, vero fugit aspernatur natus eius quisquam obcaecati placeat? Nisi quos ducimus dolores ipsa ipsam, recusandae fuga minima alias reprehenderit laborum hic pariatur veritatis illum eveniet inventore dolorem. Sed enim facere aspernatur veritatis, qui quaerat quas nihil incidunt, doloribus in et, repellendus eius eum! At ad adipisci odit repellendus.</p>
-        <img src="imagenes/basilio-caceres.jpg" alt="Foto de Basilio Cáceres">
-        <img src="imagenes/felipe-lavin.jpg" alt="Foto de Felipe Lavín">
-        <br>
-        <input type="text">
+        <div class="container">
+            <section class="home-section home-presentation">
+                <h2 class="home-section__title home-presentacion__title">Presentación</h2>
+                <div class="home-presentation__description">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum sed aliquam omnis eum laborum corrupti, ipsam quae, libero porro non optio a? Dignissimos tempora illum, quas maiores laborum eos? Quibusdam doloremque atque veniam optio eum magni. Minus vel at voluptate commodi! Natus distinctio eos ipsam beatae?</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Voluptatem iusto laudantium magni a.</li>
+                        <li>Placeat commodi nisi modi corrupti.</li>
+                        <li>Odio ipsa a nostrum hic.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum sed aliquam omnis eum laborum corrupti, ipsam quae, libero porro non optio a? Dignissimos tempora illum, quas maiores laborum eos? Quibusdam doloremque atque veniam optio eum magni. Minus vel at voluptate commodi! Natus distinctio eos ipsam beatae?</p>
+                </div>
+            </section>
+            <nav class="home-section home-nav">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Sobre las clases</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <section class="home-section home-posts">
+                <h2 class="home-section__title home-posts__title">Últimas entradas</h2>
+                <article class="home-post">
+                    <h3 class="home-post__title">Título del artículo</h3>
+                    <div class="home-post__pubdate">Publicado el <time>16 de agosto de 2021</time></div>
+                    <div class="home-post__author">Autor: <cite>Felipe Lavín</cite></div>
+                    <div class="home-post__categories">Categorías: <a href="#">Lorem</a>, <a href="#">Lorem</a></div>
+                    <div class="home-post__content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quis vero totam ipsam doloribus natus consectetur quibusdam error harum? Similique.</p>
+                    </div>
+                </article>
+                <article class="home-post">
+                    <h3 class="home-post__title">Segundo artículo</h3>
+                    <div class="home-post__pubdate">Publicado el <time>13 de agosto de 2021</time></div>
+                    <div class="home-post__author">Autor: <cite>Basilio Cáceres</cite></div>
+                    <div class="home-post__categories">Categorías: <a href="#">Lorem</a>, <a href="#">Lorem</a></div>
+                    <div class="home-post__content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quis vero totam ipsam doloribus natus consectetur quibusdam error harum? Similique.</p>
+                    </div>
+                </article>
+            </section>
+        </div>
     </main>
     <footer class="site-footer">
-        <address>Diego Portales 571, Valparaíso</address>
+        <div class="container">
+            <address>Diego Portales 571, Valparaíso</address>
+        </div>
     </footer>
 </body>
 </html>
